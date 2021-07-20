@@ -8,6 +8,10 @@
 // import utilities
 @import 'utilities/utils.scss';
 
+// import layout
+@import 'layout/grid';
+
 // import components 
 @import 'components/header';
 @import 'components/navbar';
+@import 'components/about';
