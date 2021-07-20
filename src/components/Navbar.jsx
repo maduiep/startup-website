@@ -1,12 +1,23 @@
 import React from 'react'
 
 const Navbar = () => {
+    const [state, setState] = React.useState(false);
+    React.useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+    }, [])
+
+    const handleScroll = () => {
+       if (window.scrollY > 120) {
+           setState(true)
+       } else setState(false)
+    }
+
     return (
-        <div className="navbar">
+        <div className={`navbar ${state ? 'whiteBg' : 'transparent'}`}>
             <div className="container">
                 <div className="navbar__content">
                     <div className="navbar__left">
-                      <img src="/images/2.png" alt="" />
+                      <img src={state ? "/images/3.png" : "/images/2.png"} alt="" />
                     </div>
 
                     <ul className="navbar__right">

@@ -2,3 +2,19 @@
     width: 1200px;
     margin: 0 auto;
 }
+
+.whiteBg {
+    background: $color-white !important;
+
+    & a {
+        color: $color-black !important;
+    }
+}
+
+.transparent {
+    color: transparent;
+
+    & a {
+        color: $color-white;
+    }
+}

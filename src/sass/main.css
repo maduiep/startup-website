@@ -14,6 +14,22 @@ body {
   margin: 0 auto;
 }
 
+.whiteBg {
+  background: #ffffff !important;
+}
+
+.whiteBg a {
+  color: #000000 !important;
+}
+
+.transparent {
+  color: transparent;
+}
+
+.transparent a {
+  color: #ffffff;
+}
+
 .col-1 {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 8.33333%;
@@ -161,6 +177,8 @@ body {
   top: 0;
   background: transparent;
   height: 80px;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
 }
 
 .navbar__content {
