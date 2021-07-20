@@ -5,5 +5,9 @@
 @import 'abstract/variables';
 @import 'abstract/mixins';
 
+// import utilities
+@import 'utilities/utils.scss';
+
 // import components 
 @import 'components/header';
+@import 'components/navbar';
