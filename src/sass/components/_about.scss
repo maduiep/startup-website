@@ -8,10 +8,33 @@
     }
 
     &__text p {
-        color: #777;
+        color: $ab-text-color;
         font-size: 15px;
         font-weight: 300;
         line-height: 2;
         padding-left: 50px;
+    }
+
+    &__section {
+        background: $gray-color-1;
+        padding: 55px;
+        text-align: center;
+
+        &-icon {
+            color: $icon-color-1;
+            margin-bottom: 10px
+        }
+
+        &-heading h6 {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        &-text {
+            color: $ab-text-color;
+            font-size: 15px;
+            letter-spacing: 1px;
+        }
     }
 }

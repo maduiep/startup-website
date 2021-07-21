@@ -5,6 +5,7 @@
 
 .whiteBg {
     background: $color-white !important;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
 
     & a {
         color: $color-black !important;
@@ -17,4 +18,12 @@
     & a {
         color: $color-white;
     }
+}
+
+.pl-15 {
+    padding-left: 15px;
+}
+
+.mt-60 {
+    margin-top: 60px;
 }

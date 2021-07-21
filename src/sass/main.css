@@ -30,6 +30,10 @@ body {
   color: #ffffff;
 }
 
+.mt-50 {
+  margin-top: 50px;
+}
+
 .col-1 {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 8.33333%;
@@ -177,8 +181,8 @@ body {
   top: 0;
   background: transparent;
   height: 80px;
-  -webkit-transition: all 0.5s linear;
-  transition: all 0.5s linear;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
 .navbar__content {
@@ -231,5 +235,28 @@ body {
   font-weight: 300;
   line-height: 2;
   padding-left: 50px;
+}
+
+.about__section {
+  background: #efefef;
+  padding: 55px;
+  text-align: center;
+}
+
+.about__section-icon {
+  color: #75dab4;
+  margin-bottom: 10px;
+}
+
+.about__section-heading h6 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.about__section-text {
+  color: #777;
+  font-size: 15px;
+  letter-spacing: 1px;
 }
 /*# sourceMappingURL=main.css.map */
