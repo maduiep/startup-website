@@ -5,6 +5,7 @@
     background: transparent;
     height: 80px;
     transition: all 0.3s linear;
+    z-index: 5;
 
     &__content {
         display: flex;
