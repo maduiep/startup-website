@@ -20,6 +20,11 @@
         right: 0;
         color: $color-black;
 
+        @include responsive(765px) {
+            width: 300px;
+            bottom: -550px;
+        }
+
         &-h6 {
             font-size: 12px;
             font-weight: 300;

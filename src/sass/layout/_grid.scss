@@ -3,7 +3,16 @@
         flex: 0 0 (100% / 12) * $i; //grow shrink base
         width: (100% / 12) * $i;
     }
+
+    @include responsive(765px) {
+        .col-#{$i} {
+            flex: 0 0 100%; //grow shrink base
+            width: 100%;
+        }
+     
+    }
 }
+
 
 .row {
     display: flex;
